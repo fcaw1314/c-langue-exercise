@@ -1,0 +1,7 @@
+﻿  sub.c
+  text_10_23.c
+D:\远程仓库gitee\c-langue-exercise\函数2\函数2\text_10_23.c(118,10): warning C4013: “Sub”未定义；假设外部返回 int
+  正在生成代码...
+D:\远程仓库gitee\c-langue-exercise\函数2\函数2\text_10_23.c(107): warning C4716: “main01”: 必须返回一个值
+D:\远程仓库gitee\c-langue-exercise\函数2\函数2\text_10_23.c(112): warning C4716: “main02”: 必须返回一个值
+  函数2.vcxproj -> D:\远程仓库gitee\c-langue-exercise\函数2\x64\Debug\函数2.exe
