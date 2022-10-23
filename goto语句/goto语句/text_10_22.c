@@ -16,10 +16,10 @@ int main()
 	char input[20] = {0};//存放输入的信息
 	system("shutdown -s -t 30");//system需要引入#include<stdlib.h>头文件
 again:
-	printf("请注意，你的电脑将在一分钟内关机 ，如果输入；我乃占庆华孙孙，就取消关机。\n");
+	printf("请注意，你的电脑将在30s内关机 ，如果输入；杨晓波是我爸爸，就取消关机。\n");
 	//strcmp是两个字符串之间的比较函数，需要引入#include<string.h>头文件
 	scanf("%s",input);
-	if ((strcmp(input, "我乃占庆华孙孙")) == 0)
+	if ((strcmp(input, "杨晓波是我爸爸")) == 0)
 	{
 		system("shutdown -a");
 	}
