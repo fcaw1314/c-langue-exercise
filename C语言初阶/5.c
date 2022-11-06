@@ -37,35 +37,38 @@
 //	return 0;
 //}
 //打印100-200之间的素数
-//int main()
-//{
-//	int i, j;
-//	for (i = 100; i <= 200; i++)
-//	{
-//		for (j = 2; j < i; j++)
-//		{
-//			if (i % j == 0)break;//被整除，不是素数。 
-//		}
-//		if (j >= i)
-//		{
-//			printf("%d \n", i);
-//		}
-//	}
-//	return 0;
-//
-//打印1000--2000之间的闰年
 int main()
 {
-	int i;
-	int count = 0;
-	for (i = 1000; i < 2001; i++)
+	int i, j;
+	for (i = 100; i <= 200; i++)
 	{
-		if ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0)
+		for (j = 2; j < i; j++)
 		{
-			printf("%d ", i);
-			count++;
+			if (i % j == 0)break;//被整除，不是素数。 
+
+			if (j >= i)
+
+				printf("%d \n", i);
 		}
 	}
-	printf("\n%d\n",count);
+
 	return 0;
 }
+	
+//
+//打印1000--2000之间的闰年
+//int main()
+//{
+//	int i;
+//	int count = 0;
+//	for (i = 1000; i < 2001; i++)
+//	{
+//		if ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0)
+//		{
+//			printf("%d ", i);
+//			count++;
+//		}
+//	}
+//	printf("\n%d\n",count);
+//	return 0;
+//}
